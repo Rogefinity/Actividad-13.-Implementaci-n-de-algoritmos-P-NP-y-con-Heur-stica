@@ -43,7 +43,7 @@ Se generaron grafos completos sintéticos utilizando el endpoint `/api/generar_g
     * Tiempo: 0.035 ms | Memoria: 1,850 bytes | Nodos evaluados: 15 | Costo: 82
 *   **TSP (Fuerza Bruta Exacta):** 
     * Tiempo: **ABORTADO (Exceso de Tiempo)**. 
-    * *Análisis:* Para 15 nodos, el algoritmo debe evaluar $14!$ (87,178,291,200) permutaciones. A la tasa de procesamiento de la prueba de 10 nodos, esto tardaría más de **24 horas de cómputo ininterrumpido**, demostrando en la práctica los límites físicos de la computación ante la Clase NP. El backend cortó la ejecución por límite de seguridad ($>5M$ evaluaciones).
+    * *Análisis:* Para 15 nodos, el algoritmo debe evaluar $14!$ (87,178,291,200) permutaciones. A la tasa de procesamiento de la prueba de 10 nodos, esto tardaría más de *24 horas de cómputo ininterrumpido*, demostrando en la práctica los límites físicos de la computación ante la Clase NP. El backend cortó la ejecución por límite de seguridad ($>5M$ evaluaciones).
 *   **TSP (Heurística Voraz):** 
     * Tiempo: 0.051 ms | Memoria: 1,100 bytes | Nodos recorridos: 15 | Costo: 315
 
